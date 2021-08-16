@@ -1,33 +1,23 @@
 <template>
-  <header class="class-header">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <h1 class="logo">
-            <img class="logo_img" src="../assets/logop.png" />
-          </h1>
-        </div>
-        <div class="col-md-6 header__right">
-          <p class="header-text">
-            <router-link to="/produto">
-              Cliente Pedidos
-            </router-link>
-          </p>
-        </div>
-      </div>
-      <footer class="footer">Todos os direitos reservados
-        <router-link>         
-        </router-link>        
-        </footer>   
-    </div>
-  </header>
-  
+ <div>
+   <Headerp></Headerp>
+   <Bannerp></Bannerp>
+ </div>
 </template>
 
 <script>
+import Headerp from "../components/Headerp.vue"; 
+import Bannerp from "../components/Bannerp.vue";
+
 export default {
- 
+  name: "Newp",
+  components: {
+    Headerp,
+    Bannerp,
+    
+  },
 };
+
 </script>
 
 <style>
