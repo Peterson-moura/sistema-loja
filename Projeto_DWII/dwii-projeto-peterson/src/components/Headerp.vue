@@ -9,15 +9,17 @@
         </div>
         <div class="col-md-6 header__right">
           <p class="header-text">
-            <router-link to="/">
+            <router-link to="/produto">
               Cliente Pedidos
             </router-link>
-            
-
           </p>
         </div>
       </div>
-      <footer class="footer">Todos os direitos reservados</footer>   
+      <footer class="footer">
+        <router-link>
+          Todos os direitos reservados
+        </router-link>        
+        </footer>   
     </div>
   </header>
   
