@@ -15,9 +15,8 @@
           </p>
         </div>
       </div>
-      <footer class="footer">
-        <router-link>
-          Todos os direitos reservados
+      <footer class="footer">Todos os direitos reservados
+        <router-link>         
         </router-link>        
         </footer>   
     </div>
