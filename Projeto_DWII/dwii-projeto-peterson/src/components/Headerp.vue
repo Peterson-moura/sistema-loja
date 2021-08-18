@@ -69,7 +69,7 @@ footer {
  color: white;
  text-align: center;
  height: 40px;
- display: flex;
+ display: block; 
 }
 
 

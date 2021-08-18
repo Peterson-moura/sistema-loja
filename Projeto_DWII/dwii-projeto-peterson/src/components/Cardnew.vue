@@ -3,7 +3,8 @@
     <img :src="image" alt="event-img">
      <h2>{{ title }}</h2>
     <p>{{ description }}</p>    
-    <button>Detalhes</button>
+    <router-link to="/produto"> <button>Fazer Pedido</button></router-link>
+    
   </div>
 </template>
 
