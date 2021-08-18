@@ -1,6 +1,6 @@
 <template>
   <div class="card"> 
-    
+    <img :src="image" alt="event-img">
      <h2>{{ title }}</h2>
     <p>{{ description }}</p>    
     <button>Detalhes</button>
@@ -13,8 +13,7 @@ export default {
   props: {
     title: String,
     description: String,
-    
-
+    image: Image
   },
 };
 </script>

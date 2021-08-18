@@ -1,7 +1,13 @@
 <template>
   <section class="banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div>Detalhe do produto</div>
+        </div>
+      </div>
     <div class="banner__imgs">
-     <img class="images" src="../assets/teclado1.jpg" alt="">
+     
       </div>
     <div class="container banner__content">
       <div class="row">
@@ -14,7 +20,9 @@
         </div>
       </div>
     </div>
+    </div>
   </section>
+  
 </template>
 
 <style>

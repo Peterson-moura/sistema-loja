@@ -11,7 +11,7 @@
       </div>
       <div class="row">
         <div v-for="event in eventsFiltered" :key="event.id" class="col-md-4">
-          <Cardnew :title="event.title" :description="event.description" />         
+          <Cardnew :title="event.title" :description="event.description" :image="event.image" />         
         </div>
       </div>
       
@@ -35,54 +35,56 @@ export default {
           id: 1,
           title: "Mouse Gamer Redragon Cobra, 10000DPI, Chroma, Preto - M711",
           description: `Por: R$ 127,67`,
-          img: require("../assets/logop.png"),
+          image: require("../assets/mouse1.jpg"),
         },
         {
           id: 2,
           title:
             "Mouse Gamer Redragon Nothosaur, 3200DPI, Com LED, Preto - M606",
           description: `R$ 63,90`,
-          img: require("../assets/teclado1.jpg"),
+          image: require("../assets/mouse2.png"),
         },
         {
           id: 3,
           title: "Mouse Logitech M90 Preto 1000DPI - 910-004053",
           description: `R$ 23,90`,
+          image: require("../assets/mouse3.jpg"),
         },
         {
           id: 4,
-          title:
-            "Teclado Mecânico Gamer HyperX Mars, RGB, Switch Outemu Blue, US - HX-KB3BL3-US/R4",
+          title:"Teclado Mecânico Gamer HyperX Mars, RGB, Switch Outemu Blue, US - HX-KB3BL3-US/R4",
           description: `R$ 379,90`,
+          image: require("../assets/teclado4.jpg"),
         },
         {
           id: 5,
-          title:
-            "Teclado e Mouse Microsoft Wired Desktop 600 Multimídia ABNT2 - APB00005",
+          title:"Teclado e Mouse Microsoft Wired Desktop 600 Multimídia ABNT2 - APB00005",
           description: `R$ 99,90`,
+          image: require("../assets/teclado5.jpg"),
         },
         {
           id: 6,
-          title:
-            "Teclado Mecânico Gamer T-Dagger Bora Single, LED White, Switch Blue, ABNT2 - T-TGK313-BL",
+          title:"Teclado Mecânico Gamer T-Dagger Bora Single, LED White, Switch Blue, ABNT2 - T-TGK313-BL",
           description: `R$ 169,00`,
+          image: require("../assets/teclado6.jpg"),
         },
         {
           id: 7,
-          title:
-            "Monitor Brazil PC 19, LED Widescreen, HDMI, Bivolt, Preto - BPC-19WE02-B",
+          title:"Monitor Brazil PC 19, LED Widescreen, HDMI, Bivolt, Preto - BPC-19WE02-B",
           description: `R$ 599,90`,
+           image: require("../assets/monitor7.jpg"),
         },
         {
           id: 8,
-          title:
-            "Monitor LG LED 23.8´ Widescreen, Full HD, IPS, HDMI - 24MK430H",
+          title:"Monitor LG LED 23.8´ Widescreen, Full HD, IPS, HDMI - 24MK430H",
           description: `R$ 919,90`,
+          image: require("../assets/monitor8.jpg"),
         },
         {
           id: 9,
           title: "Monitor AOC LED 21.5´ Widescreen, Full HD, HDMI/VGA - 22B1H",
           description: `R$ 845,26`,
+          image: require("../assets/monitor9.jpg"),
         },
       ],
     };
